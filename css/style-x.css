@@ -1,0 +1,703 @@
+/*help classes*/
+.margin-t30 {
+    margin-top: 1.563vw;
+}
+
+/*Global*/
+.menu-cell .main-menu .categories li.blog-menu-item,
+.menu-cell .main-menu .categories .home-menu-item a::after {
+    display: none;
+}
+
+.forgotten-pass-mob {
+    display:none;
+}
+
+#button-coupon,
+.btn-process,
+.button-login {
+    letter-spacing: 0.42em;
+}
+
+body .has-error .form-control,
+.extension-onepagecheckout-checkout #onepagecheckout #content .has-error select,
+.account-register .has-error select,
+#onepagecheckout div.tab-option .account-content .has-error  input:not(.button-login),
+.account-login .login-area .has-error .login-input,
+.account-register .has-error input:not(.btn-process) {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid #90151d;
+}
+
+/*COPYRIGHT*/
+.footer-copyright {
+    text-align: center;
+    margin-top: 70px;
+    font-family: BodoniText, serif;
+    font-size: 1.8rem;
+}
+.footer-copyright a:hover {
+    color: #647262;
+}
+
+/*HOME*/
+.landing-banner.left,
+.landing-banner.right {
+    position: relative;
+}
+
+.landing-banner.left .overlay,
+.landing-banner.right .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.landing-banner.left:hover .overlay,
+.landing-banner.right:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.landing-banner.left .overlay .text,
+.landing-banner.right .overlay .text {
+    color: #fff;
+    font-size: 3.2rem;
+    font-family: "BodoniText", serif;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#onepagecheckout,
+#onepagecheckout #content a:hover {
+    color: #647262;
+    font-weight: 600;
+}
+
+#onepagecheckout #content .totals-slip .extpanel,
+#onepagecheckout #content .confirm-order-content {
+    background-color: transparent;
+}
+#onepagecheckout #content .content-shopping-cart .extpanel {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#onepagecheckout .extpanel-body.delivery-method-content.ext-delivery-method,
+.extpanel-body.payment-method-content.ext-payment-method {
+    font-size: 1.7rem;
+}
+#onepagecheckout .totals-slip,
+#onepagecheckout .totals-slip .extpanel,
+#onepagecheckout .content-shopping-cart .extpanel tr {
+    background: rgba(250,250,250, 0.55);
+}
+#onepagecheckout .content-shopping-cart .extpanel thead tr:first-child > td {
+    border: 0;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #647262;
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 5px;
+}
+#onepagecheckout .content-shopping-cart .extpanel .exttable tbody tr > td:nth-child(2) {
+    text-align: center;
+}
+#onepagecheckout .content-shopping-cart .extpanel tr:nth-child(1) > td:nth-child(1) {
+    text-align: left;
+}
+#onepagecheckout .content-shopping-cart .extpanel tr:nth-child(1) > td:nth-child(4) {
+    text-align: right;
+}
+#onepagecheckout .content-shopping-cart .extpanel .third-col .qty-block {
+    display: block;
+    margin: 0 auto;
+}
+.extension-onepagecheckout-checkout #onepagecheckout .table-cell.v-top img {
+    box-shadow: none;
+    mix-blend-mode: multiply;
+}
+#onepagecheckout #content .cart-remove,
+#onepagecheckout #content .content-shopping-cart .extpanel table.exttable.table.table-bordered tbody tr > td:nth-child(2) {
+    color: #b2b2b2;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+#onepagecheckout #content .content-shopping-cart .extpanel table.exttable.table.table-bordered tbody tr > td:nth-child(4) {
+    color: #b2b2b2;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+#onepagecheckout #content .content-shopping-cart .extpanel table tbody .qty-block input,
+#onepagecheckout #content .qty-block,
+#onepagecheckout #content .qty-block .extbtn-block {
+    border: 0;
+    background: transparent;
+    font-size: 1.7rem;
+}
+#onepagecheckout #content .content-shopping-cart .extpanel table tbody .qty-block .quantitybox {
+    font-size: 2rem;
+}
+#onepagecheckout #content .qty-block input {
+    color: #647262;
+    font-size: 2.7rem;
+}
+#onepagecheckout #content .extbtn-block {
+    color: #647262;
+}
+#onepagecheckout #content .table.table-bordered.total-list tr td {
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #647262;
+    padding: 1.250vw 0;
+}
+#onepagecheckout #content .table.table-bordered.total-list tr td:nth-child(1) strong {
+    font-weight: 400;
+}
+#onepagecheckout #content .table.table-bordered.total-list tr td:nth-child(2) {
+    text-align: right;
+}
+#onepagecheckout #content .table.table-bordered.total-list tr:last-child td:nth-child(1) {
+    font-size: 2.2rem;
+    color: #647262;
+    text-transform: uppercase;
+}
+#onepagecheckout #content .table.table-bordered.total-list tr:last-child td:nth-child(2) {
+    font-size: 2.2rem;
+    color: #647262;
+}
+#onepagecheckout #content .account_option .totals-slip .extrow .content-shopping-cart .extpanel-title {
+    text-transform: uppercase;
+}
+#onepagecheckout .account_option .tab-holder, .row.account_option .tab-holder .tab {
+    border: 0;
+    color: rgba(100, 114, 98, 0.5);
+    padding: 0;
+}
+#onepagecheckout .account_option .tab-holder {
+    margin-bottom: 4.010vw;
+    justify-content: space-between;
+    display: flex;
+}
+.custom-login-buttons-social {
+    margin-top: 4.896vw;
+}
+#onepagecheckout div.tab-option .personal-details-content .extpanel label,
+.account-login .login-area label,
+body.account-edit #content label,
+body.account-password #content label,
+body.account-forgotten #content label {
+    text-transform: uppercase;
+}
+#onepagecheckout div.tab-option .account-content .checkbox label {
+    text-transform: inherit;
+}
+#onepagecheckout div.tab-option .account-content .form-group {
+    margin-bottom: 1.667vw;
+}
+#onepagecheckout div.tab-option .account-content .form-group label::after,
+.account-login .login-area label::after,
+body.account-edit #content label::after,
+body.account-password #content label::after,
+body.account-forgotten #content label::after {
+    color: #90151d;
+}
+#onepagecheckout div.tab-option .account-content input:not(.button-login) {
+    text-align: left;
+}
+#onepagecheckout div.tab-option .account-content input:not(.button-login),
+.account-login .login-area .login-input,
+.account-register input:not(.btn-process),
+.account-edit #content input:not(.btn-process),
+.account-password #content input:not(.btn-process),
+body.account-forgotten #content input:not(.btn-process) {
+    border: 0;
+    border-bottom: 2px solid #647262;
+    padding-left: 0;
+}
+#onepagecheckout div.tab-option .account-content input::placeholder,
+.account-login .login-area input::placeholder,
+body.account-edit #content input::placeholder,
+body.account-password #content input::placeholder,
+body.account-forgotten #content input::Placeholder {
+    color: #f5f5f5;
+    visibility: hidden;
+}
+.extension-onepagecheckout-checkout #onepagecheckout #content select,
+.account-register select {
+    border: 0;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #647262;
+    border-bottom: 2px solid #647262;
+}
+#onepagecheckout .account_option input#input-coupon {
+    height: 68px;
+}
+#onepagecheckout .account_option input#input-coupon::placeholder {
+    font-size: 1.7rem;
+}
+#onepagecheckout #content .totals-slip .confirm-order-content.content-confirm-order textarea {
+    height: 115px;
+    max-height: 115px;
+}
+#onepagecheckout.confirm-order-content.content-confirm-order label {
+    margin-top: 0.521vw;
+}
+#onepagecheckout #content .totals-slip .input-terms {
+    margin: 1.563vw 0;
+    font-weight: 400;
+    font-size: 1.7rem;
+    font-family: "BodoniText", serif;
+}
+#onepagecheckout #content .totals-slip .input-terms a {
+    font-family: "BodoniText", serif;
+    font-size: 1.7rem;
+}
+#onepagecheckout #content .totals-slip .confirm-btn-holder {
+    padding: 0;
+    margin: 0;
+}
+.confirm-btn-holder a {
+    display: none;
+}
+#onepagecheckout #content .promo-fields {
+    border-top: none;
+}
+
+/*POP UP NOTE*/
+.popup-note {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    font-family: 'BodoniText', sans-serif;
+    font-size: 2.2rem;
+    color: #647262;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+    background: transparent;
+    -webkit-box-shadow: unset;
+    -moz-box-shadow: unset;
+    box-shadow: unset;
+}
+.popup-note .inner {
+    background: white;
+    -webkit-box-shadow:  0 0 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow:  0 0 5px rgba(0, 0, 0, .2);
+    box-shadow:  0 0 5px rgba(0, 0, 0, .2);
+}
+.popup-note a {
+    color: #647262;
+    font-weight: 600;
+}
+.popup-note .v-top, .table-cell.v-top {
+    vertical-align: middle;
+}
+
+body.checkout-success .container {
+    padding-top: 50px;
+}
+
+
+/*login forgotten pass label*/
+a.pull-right.forgottern-pass {
+    color: #959595;
+    font-family: "BodoniText", sans-serif;
+    text-transform: lowercase;
+}
+
+
+/*WISH LIST*/
+.account-wishlist table.wish-list-table td,
+.account-order .common-account-page-order_list table td {
+    text-align: center;
+    color: #647262;
+}
+
+/*BABY-HOME NEWSLETTER*/
+.newsletter-choices .round input[type=radio]:checked + .newsletter-options {
+    background-color: #fff;
+    visibility: visible;
+    opacity: 1;
+}
+
+body.extension-onepagecheckout-checkout .newsletter-choices label {
+    color: #fff;
+    font-family: "BodoniText", serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: 400;
+}
+
+/*HOME SALES*/
+li.baby_menu.baby_sales > a > span.top {
+    color: #8e1515;
+}
+
+/*register style-d add*/
+.account-register {
+    font-family: "BodoniText", sans-serif;
+}
+.account-register #content label,
+.information-contact #content label {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    color: #647262;
+    font-family: "BodoniText", sans-serif;
+}
+.account-register div.required .control-label:after {
+    color: #90151d;
+}
+.account-register input::placeholder {
+    color: #f5f5f5;
+    visibility: hidden;
+}
+.account-register .register-terms {
+    text-align: right;
+}
+.account-register .inline-link,
+a.inline-link,
+.inline-link a,
+a.inline-link,
+.inline-link a:hover {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    color: #647262;
+}
+
+.account-password #content .buttons,
+.account-edit #content .buttons,
+.account-address #content .buttons {
+    text-align: right;
+}
+
+input.btn.btn-process,
+.btn.btn-process {
+    font-family: "BodoniText", sans-serif;
+    font-size: 1.7rem;
+    line-height: initial;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #647262;
+    border: 3px solid #647262;
+    padding: 19px 28px;
+}
+
+.btn.btn-process:hover {
+    color: #647262;
+    background-color: #ffffff;
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+}
+
+.account-success #content,
+.account-logout #content {
+    margin-top: 2.604vw;
+    align-items: center;
+    font-size: 2rem;
+    color: #647262;
+}
+
+legend.default-legend {
+    border: 0;
+    font-family: 'BodoniText', sans-serif;
+}
+
+/*checkout-cart*/
+.checkout-cart #content {
+    text-align: center;
+    padding-top: 14%;
+}
+
+
+/*contact*/
+.information-contact #content {
+    padding: 2.604vw 0;
+}
+.information-contact p,
+.information-contact #content a {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+.information-contact #content a:hover {
+    color: #647262;
+    font-size: 1.7rem;
+}
+
+/*manufacturer*/
+.product-manufacturer {
+    font-family: 'BodoniText', sans-serif;
+    color: #647262;
+}
+.product-manufacturer #content {
+    padding: 2.604vw 15px;
+}
+.product-manufacturer #content a {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+.product-manufacturer #content a:hover {
+    color: #647262;
+    text-decoration: underline;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+}
+
+
+body.account-order .common-account-page,
+body.account-wishlist .common-account-page {
+    width: 100%;
+}
+.common-account-page {
+    width: 72%;
+    margin: 0 auto;
+    padding-top: 2.604vw;
+    padding-bottom: 2.604vw;
+}
+.common-account-page h1 {
+    text-align: center;
+}
+
+.account-register #content fieldset input {
+    text-align: center;
+}
+
+/*===========================
+|   INSTAGRAM FEED - BABY/HOME
+==========================*/
+.instagram-feed-container {
+    background: #fafafa;
+    width: 100%;
+    max-width: 74.583vw;
+    margin: 0 auto;
+    padding: 10.156vw 30px 8.854vw;
+}
+.instagram_feed_wrapper.baby-container, .instagram_feed_wrapper.home-container {
+    text-align: center;
+    font-family: "BodoniText", sans-serif;
+    width: 100%;
+    max-width: 59.063vw;
+    margin: 0 auto;
+}
+.instagram_feed_wrapper.baby-container h4 {
+    color: #afd7b4;
+    font-size: 5.8rem;
+    font-weight: 600;
+    line-height: initial;
+}
+.instagram_feed_wrapper.home-container h4 {
+    color: #647262;
+    font-size: 5.8rem;
+    font-weight: 600;
+    line-height: initial;
+}
+.instagram_feed_wrapper.baby-container p {
+    font-size: 1.6rem;
+    line-height: initial;
+    font-weight: 400;
+    margin-bottom: 3.646vw;
+    padding: 0;
+    color: #647262;
+}
+.instagram_feed_wrapper.home-container p {
+    font-size: 2.7rem;
+    line-height: initial;
+    font-weight: 400;
+    margin-bottom: 3.646vw;
+    padding: 0;
+    color: #647262;
+}
+.instagram_feed_wrapper.baby-container a.like-button {
+    border: 3px solid #afd7b4;
+    padding: 5px 30px 9px;
+    font-size: 2.1rem;
+    color: #627485;
+}
+.instagram_feed_wrapper.home-container a.like-button {
+    border: 3px solid #dcd4c9;
+    color: #647262;
+    padding: 9px 30px 13px;
+    font-size: 2.4rem;
+    line-height: 1;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    max-width: 140px;
+    margin: 0 auto;
+}
+.instagram_feed_wrapper.baby-container a.like-button:hover {
+    background-color: #afd7b4;
+    color: #fff;
+}
+.instagram_feed_wrapper.home-container a.like-button:hover {
+    background-color: #dcd4c9;
+    color: #fff;
+}
+.instagram_feed_wrapper.baby-container .arvana_baby.the-feed {
+    margin-top: 6.979vw;
+}
+.instagram_feed_wrapper.home-container .arvana_home.the-feed {
+    margin-top: 4.896vw;
+}
+
+/*CHECKBOX CUSTOM CSS*/
+.checkbox input[type="checkbox"] {
+    visibility: hidden;
+    -moz-appearance: initial;
+}
+.checkbox label{
+    padding-left: 35px;
+    position: relative;
+}
+.checkbox label::before {
+    width: 19px;
+    height: 19px;
+    border: 2px solid #647262;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    content: '';
+    border-radius: 8px;
+}
+
+.checkbox input[type="checkbox"]:checked::after {
+    opacity: 1;
+    visibility: visible;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top: -5px;
+    left: -11px;
+    content: url(../images/checkmark.png);
+    cursor: pointer;
+}
+
+/*===========================
+|   MOBILE RESPONSIVE
+==========================*/
+
+@media (max-width: 767px) {
+    input,
+    .mob-btn,
+    .extension-onepagecheckout-checkout .default-sub-title,
+    .extension-onepagecheckout-checkout .default-title,
+    .information-contact .default-title,
+    .submit-form,
+    body[class^="account-logout"] #content h1.default-title,
+    #onepagecheckout .account_option input#input-coupon,
+    .common-account-page,
+    .common-account-page .buttons {
+        text-align: center;
+    }
+
+
+    .account-success #content,
+    .account-logout #content,
+    .account-login #content {
+        flex-wrap: wrap;
+    }
+
+    .default-title {
+        font-size: 4.5rem;
+    }
+
+    .extension-onepagecheckout-checkout #content .tab-holder {
+        margin-bottom: 8.167vh;
+    }
+
+    body[class^="account-logout"] #content h1.default-title {
+        width: 100%;
+    }
+
+    .account-register #content,
+    .information-contact #content {
+        padding: 0 0.781vw;
+    }
+
+    h3.lined-title span {
+        padding-left: 1.042vw;
+    }
+    .extension-onepagecheckout-checkout #content .tab-option{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    #onepagecheckout .promo-fields .input-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #onepagecheckout .promo-fields .input-group .input-group-btn {
+        width: 100%;
+    }
+    #onepagecheckout .promo-fields .input-group .input-group-btn button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    input#button-login,
+    .confirm-btn-holder button,
+    .account-login input[type=submit],
+    .register-text a.btn.btn-primary,
+    .extension-onepagecheckout-checkout .promo-fields .input-group button {
+        font-size: 1.2rem;
+    }
+
+    .account-register #content fieldset {
+        max-width: 100%;
+    }
+
+    .checkbox {
+        padding-top: 2.042vh;
+    }
+
+    /*forgotten pass*/
+    .forgotten-pass {
+        display: none;
+    }
+    .forgotten-pass-mob {
+        display:block;
+        margin-top: 6.208vh;
+        text-transform: lowercase;
+    }
+    .forgotten-pass-mob:hover{
+        color: #647262;
+    }
+
+    .instagram-feed-container .instagram_feed_wrapper {
+        padding: 8.333vw 0 10.938vw 0;
+    }
+    .instagram-feed-container .instagram_feed_wrapper h4 {
+        font-size: 2.7rem;
+        line-height: 2.4rem;
+        margin-bottom: 20px;
+    }
+    .instagram-feed-container .instagram_feed_wrapper p {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+
+}

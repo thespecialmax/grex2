@@ -1,0 +1,129 @@
+/*========================================================*/
+/* FONTS */
+/*========================================================*/
+@font-face {
+    font-family: 'BodoniText';
+    src: url('../fonts/PFBodoniText-Regular.eot');
+    src: url('../fonts/PFBodoniText-Regular.eot#iefix') format('embedded-opentype'),
+    url('../fonts/PFBodoniText-Regular.woff') format('woff'),
+    url('../fonts/PFBodoniText-Regular.ttf') format('truetype'),
+    url('../fonts/PFBodoniText-Regular.svg#PFBodoniText-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BodoniText';
+    src: url('../fonts/PFBodoniText-Italic.eot');
+    src: url('../fonts/PFBodoniText-Italic.eot#iefix') format('embedded-opentype'),
+    url('../fonts/PFBodoniText-Italic.woff') format('woff'),
+    url('../fonts/PFBodoniText-Italic.ttf') format('truetype'),
+    url('../fonts/PFBodoniText-Italic.svg#PFBodoniText-Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BodoniText';
+    src: url('../fonts/PFBodoniText-Bold.eot');
+    src: url('../fonts/PFBodoniText-Bold.eot#iefix') format('embedded-opentype'),
+    url('../fonts/PFBodoniText-Bold.woff') format('woff'),
+    url('../fonts/PFBodoniText-Bold.ttf') format('truetype'),
+    url('../fonts/PFBodoniText-Bold.svg#PFBodoniText-Bold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BodoniText';
+    src: url('../fonts/PFBodoniText-BoldItalic.eot');
+    src: url('../fonts/PFBodoniText-BoldItalic.eot#iefix') format('embedded-opentype'),
+    url('../fonts/PFBodoniText-BoldItalic.woff') format('woff'),
+    url('../fonts/PFBodoniText-BoldItalic.ttf') format('truetype'),
+    url('../fonts/PFBodoniText-BoldItalic.svg#PFBodoniText-BoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Antic Didone';
+    src: url('../fonts/AnticDidone-Regular.eot');
+    src: url('../fonts/AnticDidone-Regular.eot#iefix') format('embedded-opentype'),
+    url('../fonts/AnticDidone-Regular.woff') format('woff'),
+    url('../fonts/AnticDidone-Regular.ttf') format('truetype'),
+    url('../fonts/AnticDidone-Regular.svg#AnticDidone-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Regular.woff') format('woff'),
+    url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+    url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*========================================================*/
+/* RESET */
+/*========================================================*/
+::selection {
+    background: #3c5239;
+    color: #fff;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.5;
+}
+body {
+    font-family: "BodoniText", serif;
+    font-size: 1.6rem;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "BodoniText", serif;
+}
+p, li, span, input {
+    font-family: "BodoniText", serif;
+}
+a:focus {
+    color: #3c5239;
+}
+*:focus {
+    outline: none !important;
+}
+.flex-row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.flex-column {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+.outer-container.main-wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+}
+.col-60 {
+   display: inline-block;
+    width: 60%;
+}
+.col-40 {
+    display: inline-block;
+    width: 40%;
+    position: relative;
+}
